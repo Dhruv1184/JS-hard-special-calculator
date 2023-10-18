@@ -13,7 +13,7 @@ function simpleDivision(numberOne, numberTwo) {
     : numberOne < numberTwo
     ? 'Cannot divide a smaller number from a larger number'
     : numberTwo == 0
-    ? 'denominator should not be negative'
+    ? 'Not a number'
     : numberOne / numberTwo;
 }
 // Progression 3: Create the special calculator
